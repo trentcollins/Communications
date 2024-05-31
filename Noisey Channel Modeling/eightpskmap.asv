@@ -1,0 +1,29 @@
+function [OutputVector] = eightpskmap(InputVector)
+
+for N=1:3:length(InputVector)
+    if(InputVector(1,N) == 0)
+        if(InputVector(1,N+1) == 0)
+            if(InputVector(1,N+2) == 0 )
+                    I=0;
+            else
+                    
+            end
+                
+
+
+        else
+
+
+        end
+
+
+
+    else
+
+
+
+
+    end
+    
+    OutputVector(1,N) = exp(i*2*pi* (I/8);
+end
